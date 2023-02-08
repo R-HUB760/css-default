@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Strait&display=swap');
+
 :root{
   --primary-color: green;
   --secondary-color: blue;
@@ -11,6 +13,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  font-family: 'Strait', sans-serif;
 }
 
 a {
@@ -47,7 +50,7 @@ Nav Bar
   padding: var(--padding);
 }
 .menu{
-  width: 70%;
+  min-width: 50%;
 }
 .menu li a{
   color: var(--white) !important;
@@ -64,6 +67,11 @@ Nav Bar
 /*================
 Nav Bar End 
 ==================*/
+.footer{
+  background: var(--secondary-color);
+  color: var(--white);
+  padding: var(--padding);
+}
 
 
 /* Responsive Mode */
